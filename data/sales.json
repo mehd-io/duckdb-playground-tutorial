@@ -1,0 +1,52 @@
+{
+    "sales_data": [
+      {
+        "order_id": 1,
+        "customer": {
+          "id": 101,
+          "name": "John Doe",
+          "email": "john.doe@example.com"
+        },
+        "items": [
+          {
+            "product_id": 301,
+            "product_name": "Laptop",
+            "quantity": 1,
+            "price": 1200
+          },
+          {
+            "product_id": 302,
+            "product_name": "Mouse",
+            "quantity": 1,
+            "price": 25
+          }
+        ],
+        "total_amount": 1225,
+        "date": "2023-03-24"
+      },
+      {
+        "order_id": 2,
+        "customer": {
+          "id": 102,
+          "name": "Jane Smith",
+          "email": "jane.smith@example.com"
+        },
+        "items": [
+          {
+            "product_id": 303,
+            "product_name": "Keyboard",
+            "quantity": 1,
+            "price": 50
+          },
+          {
+            "product_id": 304,
+            "product_name": "Monitor",
+            "quantity": 1,
+            "price": 200
+          }
+        ],
+        "total_amount": 250,
+        "date": "2023-03-25"
+      }
+    ]
+  }
