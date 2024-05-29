@@ -4,8 +4,10 @@ Everything is covered by the video tutorial!
 
 ## Folder structure
 ```
-duckdb_playground.sql : contains all the queries for DuckDB CLI / Extensions
-netflix_playground.sql : contains all the queries for first analytics project using Netflix dataset
+duckdb_playground.sql : Playground queries for DuckDB CLI / Extensions
+netflix_playground.sql : Analytics on netflix dataset
+json_parsing.sql : JSON parsing examples
+extensions.sql : Examples of using DuckDB extensions
 data/ : contains all the data files to run the queries
 ```
 
