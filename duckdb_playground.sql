@@ -27,11 +27,8 @@ SELECT * FROM './data/sales.json';
 .mode markdown
 .output myfile.md
 FROM netflix_daily_top_10;
+
+-- Quit the CLI and try the following
 -- Using the CLI to run a command and exit the process
 duckdb -c "SELECT * FROM read_parquet('./data/netflix_daily_top_10.parquet');"
--- view extensions 
-SELECT * FROM duckdb_extensions();
--- Install extension
-INSTALL httpfs;
--- Load extension
-LOAD httpfs;
+
