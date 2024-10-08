@@ -1,3 +1,9 @@
+-- Magic over S3
+FROM 's3://duckdb-md-dataset-121/netflix_daily_top_10.parquet';
+DESCRIBE TABLE 's3://duckdb-md-dataset-121/netflix_daily_top_10.parquet';
+-- What is happening ?
+FROM duckdb_extensions();
+
 -- Create a table from s3 parquet file
 CREATE TABLE netflix AS SELECT * FROM read_parquet('s3://duckdb-md-dataset-121/netflix_daily_top_10.parquet');
 FROM netflix;
