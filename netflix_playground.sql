@@ -1,5 +1,6 @@
 -- Create a table from s3 parquet file
-CREATE TABLE netflix AS SELECT * FROM read_parquet('s3://duckdb-md-dataset-121/netflix_daily_top_10.parquet');
+CREATE TABLE netflix AS SELECT * FROM read_parquet('s3://us-prd-motherduck-open-datasets/netflix/netflix_daily_top_10.parquet');
+FROM 's3://us-prd-motherduck-open-datasets/netflix/netflix_daily_top_10.parquet';
 FROM netflix;
 SHOW netflix;
 -- Display the most popular TV Shows
