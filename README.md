@@ -1,15 +1,11 @@
-# DuckDB queries playground
-This repo contains a collection of queries that can be run against DuckDB for the beginner tutorial [here](https://www.youtube.com/watch?v=ZX5FdqzGT1E).
-Everything is covered by the video tutorial!
+# DuckDB & MotherDuck Beginner Queries
 
-## Folder structure
-```
-duckdb_playground.sql : Playground queries for DuckDB CLI / Extensions
-netflix_playground.sql : Analytics on netflix dataset
-json_parsing.sql : JSON parsing examples
-extensions.sql : Examples of using DuckDB extensions
-data/ : contains all the data files to run the queries
-```
+This repository includes a collection of beginner-friendly queries, specifically in the [`duckdb_for_beginner.sql`](./duckdb_for_beginner.sql) file. You can run these queries using **DuckDB** or [**MotherDuck**](https://motherduck.com).
 
-## About the Netflix dataset
-The Netflix dataset is taken from Kaggle [here](https://www.kaggle.com/prasertk/netflix-daily-top-10-in-us)
+These examples are part of the [DuckDB & MotherDuck tutorial for beginners](https://youtu.be/WYV8hvJOAQE). The video walks you through everything you need to get started!
+
+✅ **Watch the tutorial** for step-by-step guidance.  
+📄 **Explore the queries** to practice and learn hands-on.
+
+## About the hacker news dataset
+The dataset used is a public hosted dataset by MotherDuck, check more information [here](https://motherduck.com/docs/getting-started/sample-data-queries/hacker-news/). 
