@@ -78,6 +78,7 @@ ATTACH 'hacker_news_stats.db';
 SHOW ALL TABLES;
 SHOW DATABASES;
 
+-- Sign-up for free at motherduck.com and get your access token through the UI https://motherduck.com/docs/getting-started/sample-data-queries/hacker-news/
 -- Connecting to MotherDuck
 ATTACH 'md:';
 
